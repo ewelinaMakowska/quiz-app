@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-------icons----------->
+      <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+      <!-------google fonts----------->
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
+
+    <title>Quiz</title>
+  </head>
+  <body>
+  <div class="container" id="question-container">
+      <div class="row question" id=question>
+          <div class="col-1"><h2 id="question-number"> </h2></div>
+          <div class="col-10"><h2 id="question-text">What is the name of this painting?</h2></div>
+          <div class="col-1">
+              <div class="row"><div id="score-prefix">Score:</div></div>
+              <div class="row"><div id="score">0</div></div>
+          </div>
+      </div>
+      
+       <div class="row" id="artwork">
+           <img src="" alt="Image" id="image"/>
+      </div>
+      
+      <div class="container choices">
+       <div class="row choice">
+           <div class="col-1 choice-prefix">a</div>
+           <div class="col-8 choice-text q-btn" data-number="1">First option</div>
+      </div>
+       <div class="row choice">
+           <div class="col-1 choice-prefix">b</div>
+           <div class="col-8 choice-text q-btn" data-number="2">Second option</div>
+      </div>
+       <div class="row choice">
+           <div class="col-1 choice-prefix">c</div>
+           <div class="col-8 choice-text q-btn" data-number="3">Third option</div>
+      </div>
+       <div class="row choice">
+           <div class="col-1 choice-prefix">d</div>
+           <div class="col-8 choice-text q-btn" data-number="4">Fourth option</div>
+      </div>
+          </div>
+      
+       <div class="row">
+           <div id="progress-bar">
+               <div id="progress-bar-full">
+               </div>
+           </div>
+       
+      </div>
+      
+      </div>
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/quiz.js"></script>
+  </body>
+</html>

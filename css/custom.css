@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    font-size: 9vh;
+    border-bottom: 3px solid #710000;
+}
+
+#start-container {
+      /*  margin: 20vh 20vh 20vh 5vw;
+    padding-left: 30vw; */
+    
+    font-size: 9rem;
+    
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    
+    border: 1px solid #ededed;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 4px;
+  /*  border: 1px solid #acacac; */
+}
+
+.btn:hover {
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    border: 2px solid #710000;
+}
+/*---------------COLORS-------------------------------*/
+/*dark grey: #333
+  mid grey: #acacac
+/*subtle grey; #ededed
+
+*/
