@@ -20,7 +20,7 @@ let availableQuestions = [];
 
 let questions = [
     {
-       SRC: "/img/Kouros.jpg",
+       SRC: "img/Kouros.jpg",
        question: "What is the name of this sculpture?",
        choice1: "Kouros",
         choice2: "Lady of Auxerre",
@@ -30,7 +30,7 @@ let questions = [
         
     },
     {
-       SRC: "/img/Nike-of-Samothrace.jpg",
+       SRC: "img/Nike-of-Samothrace.jpg",
        question: "What is the name of this artwork?",
        choice1: "Venus of Milo",
         choice2: "Lady of Auxerre",
@@ -40,7 +40,7 @@ let questions = [
         
     },
     {
-       SRC: "/img/Lady-of-Auxerre.jpg",
+       SRC: "img/Lady-of-Auxerre.jpg",
        question: "What is the name of this sculpture?",
        choice1: "Kouros",
         choice2: "Lady of Auxerre",
@@ -73,7 +73,7 @@ getNewQuestion = () => {
     
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
-        return window.location.assign('/css/end.html');         
+        return window.location.assign('end.html');         
     }
     
     questionCounter++;
@@ -86,7 +86,7 @@ getNewQuestion = () => {
     if(currentQuestion.SRC) {
         image.src = currentQuestion.SRC;
     } else {
-        image.src = "/img/quotation-mark.png";
+        image.src = "img/quotation-mark.png";
     };
     
    
